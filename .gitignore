@@ -1,0 +1,13 @@
+
+target/
+.git/
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local backup archives and copied files
+*.zip
+resume-builder-latest.txt
