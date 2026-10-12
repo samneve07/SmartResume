@@ -86,7 +86,10 @@ public class ResumeDAO {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+    System.err.println("SMARTRESUME CREATE RESUME FAILED");
+    System.err.println("SQL State: " + e.getSQLState());
+    System.err.println("Error Code: " + e.getErrorCode());
+    e.printStackTrace();
         }
 
         return -1;
