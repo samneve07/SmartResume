@@ -1,4 +1,4 @@
-﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="com.smartresume.dao.ResumeDAO.ResumeData" %>
 
 <%!
@@ -86,7 +86,7 @@
 <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
 
-<title>SmartResume â€” Resume Builder</title>
+<title>SmartResume — Resume Builder</title>
 
 <style>
 
@@ -774,7 +774,7 @@ a {
 }
 
 .template-option.selected::after {
-    content: "âœ“";
+    content: "✓";
 
     position: absolute;
 
@@ -2332,7 +2332,7 @@ a {
             class="back-button"
             title="Back to dashboard"
         >
-            â†
+            ←
         </a>
 
 
@@ -2396,7 +2396,7 @@ a {
             class="top-button"
             onclick="zoomOut()"
         >
-            âˆ’
+            −
         </button>
 
         <span
@@ -2422,7 +2422,7 @@ a {
             class="top-button"
             onclick="window.print()"
         >
-            âŽ™ Print
+            ⎙ Print
         </button>
 
         <button
@@ -2503,7 +2503,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â—‰
+                ◉
             </div>
 
             <div>
@@ -2627,7 +2627,7 @@ a {
                 </button>
 
                 <span class="photo-upload-help">
-                    JPG, PNG or WEBP Â· max 5 MB
+                    JPG, PNG or WEBP · max 5 MB
                 </span>
 
             </div>
@@ -2682,7 +2682,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                âœ¦
+                ✦
             </div>
 
             <div>
@@ -2724,7 +2724,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â†—
+                ↗
             </div>
 
             <div>
@@ -2759,7 +2759,7 @@ a {
                     class="remove-entry"
                     onclick="removeEntry(this)"
                 >
-                    Ã—
+                    ×
                 </button>
 
             </div>
@@ -2868,7 +2868,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â—‡
+                ◇
             </div>
 
             <div>
@@ -2903,7 +2903,7 @@ a {
                     class="remove-entry"
                     onclick="removeEntry(this)"
                 >
-                    Ã—
+                    ×
                 </button>
 
             </div>
@@ -2997,7 +2997,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â—ˆ
+                ◈
             </div>
 
             <div>
@@ -3032,7 +3032,7 @@ a {
                     class="remove-entry"
                     onclick="removeEntry(this)"
                 >
-                    Ã—
+                    ×
                 </button>
 
             </div>
@@ -3149,7 +3149,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                âœ“
+                ✓
             </div>
 
             <div>
@@ -3233,7 +3233,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â˜…
+                ★
             </div>
 
             <div>
@@ -3275,7 +3275,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â™¢
+                ♢
             </div>
 
             <div>
@@ -3330,40 +3330,40 @@ a {
 
     <div class="template-mini-grid">
         <button type="button" class="template-option selected" data-template="template-01" onclick="selectTemplate(this,'template-01')" aria-label="Select Clean Professional">
-            <div class="mini-paper mini-01"><b></b><i></i><hr><em></em><i></i><i></i></div><span>01 Â· CLEAN</span>
+            <div class="mini-paper mini-01"><b></b><i></i><hr><em></em><i></i><i></i></div><span>01 · CLEAN</span>
         </button>
         <button type="button" class="template-option" data-template="template-02" onclick="selectTemplate(this,'template-02')" aria-label="Select Bold Header">
-            <div class="mini-paper mini-02"><b></b><i></i><hr><em></em><i></i><i></i></div><span>02 Â· BOLD</span>
+            <div class="mini-paper mini-02"><b></b><i></i><hr><em></em><i></i><i></i></div><span>02 · BOLD</span>
         </button>
         <button type="button" class="template-option" data-template="template-03" onclick="selectTemplate(this,'template-03')" aria-label="Select Editorial">
-            <div class="mini-paper mini-03"><b></b><i></i><hr><em></em><i></i><i></i></div><span>03 Â· EDITORIAL</span>
+            <div class="mini-paper mini-03"><b></b><i></i><hr><em></em><i></i><i></i></div><span>03 · EDITORIAL</span>
         </button>
         <button type="button" class="template-option" data-template="template-04" onclick="selectTemplate(this,'template-04')" aria-label="Select Minimal">
-            <div class="mini-paper mini-04"><b></b><i></i><hr><em></em><i></i><i></i></div><span>04 Â· MINIMAL</span>
+            <div class="mini-paper mini-04"><b></b><i></i><hr><em></em><i></i><i></i></div><span>04 · MINIMAL</span>
         </button>
         <button type="button" class="template-option" data-template="template-05" onclick="selectTemplate(this,'template-05')" aria-label="Select Accent Line">
-            <div class="mini-paper mini-05"><b></b><i></i><hr><em></em><i></i><i></i></div><span>05 Â· ACCENT</span>
+            <div class="mini-paper mini-05"><b></b><i></i><hr><em></em><i></i><i></i></div><span>05 · ACCENT</span>
         </button>
         <button type="button" class="template-option" data-template="template-06" onclick="selectTemplate(this,'template-06')" aria-label="Select Creative">
-            <div class="mini-paper mini-06"><b></b><i></i><hr><em></em><i></i><i></i></div><span>06 Â· CREATIVE</span>
+            <div class="mini-paper mini-06"><b></b><i></i><hr><em></em><i></i><i></i></div><span>06 · CREATIVE</span>
         </button>
         <button type="button" class="template-option" data-template="template-07" onclick="selectTemplate(this,'template-07')" aria-label="Select Developer">
-            <div class="mini-paper mini-07"><b></b><i></i><hr><em></em><i></i><i></i></div><span>07 Â· DEVELOPER</span>
+            <div class="mini-paper mini-07"><b></b><i></i><hr><em></em><i></i><i></i></div><span>07 · DEVELOPER</span>
         </button>
         <button type="button" class="template-option" data-template="template-08" onclick="selectTemplate(this,'template-08')" aria-label="Select Left Rail">
-            <div class="mini-paper mini-08"><b></b><i></i><hr><em></em><i></i><i></i></div><span>08 Â· LEFT RAIL</span>
+            <div class="mini-paper mini-08"><b></b><i></i><hr><em></em><i></i><i></i></div><span>08 · LEFT RAIL</span>
         </button>
         <button type="button" class="template-option" data-template="template-09" onclick="selectTemplate(this,'template-09')" aria-label="Select Traditional">
-            <div class="mini-paper mini-09"><b></b><i></i><hr><em></em><i></i><i></i></div><span>09 Â· TRADITIONAL</span>
+            <div class="mini-paper mini-09"><b></b><i></i><hr><em></em><i></i><i></i></div><span>09 · TRADITIONAL</span>
         </button>
         <button type="button" class="template-option" data-template="template-10" onclick="selectTemplate(this,'template-10')" aria-label="Select Double Rule">
-            <div class="mini-paper mini-10"><b></b><i></i><hr><em></em><i></i><i></i></div><span>10 Â· DOUBLE RULE</span>
+            <div class="mini-paper mini-10"><b></b><i></i><hr><em></em><i></i><i></i></div><span>10 · DOUBLE RULE</span>
         </button>
         <button type="button" class="template-option" data-template="template-11" onclick="selectTemplate(this,'template-11')" aria-label="Select Compact">
-            <div class="mini-paper mini-11"><b></b><i></i><hr><em></em><i></i><i></i></div><span>11 Â· COMPACT</span>
+            <div class="mini-paper mini-11"><b></b><i></i><hr><em></em><i></i><i></i></div><span>11 · COMPACT</span>
         </button>
         <button type="button" class="template-option" data-template="template-12" onclick="selectTemplate(this,'template-12')" aria-label="Select Signature">
-            <div class="mini-paper mini-12"><b></b><i></i><hr><em></em><i></i><i></i></div><span>12 Â· SIGNATURE</span>
+            <div class="mini-paper mini-12"><b></b><i></i><hr><em></em><i></i><i></i></div><span>12 · SIGNATURE</span>
         </button>
     </div>
 
@@ -3566,7 +3566,7 @@ a {
         <div class="section-heading-left">
 
             <div class="section-heading-icon">
-                â˜·
+                ☷
             </div>
 
             <div>
@@ -3607,7 +3607,7 @@ for (String[] section : sectionNames) {
         <div class="section-toggle-info">
 
             <span class="drag">
-                â‹®â‹®
+                ⋮⋮
             </span>
 
             <span
@@ -3664,7 +3664,7 @@ for (String[] section : sectionNames) {
             class="tool-btn"
             onclick="zoomOut()"
         >
-            âˆ’
+            −
         </button>
 
         <span
@@ -3685,7 +3685,7 @@ for (String[] section : sectionNames) {
             class="tool-btn"
             onclick="resetZoom()"
         >
-            â†º
+            ↺
         </button>
 
     </div>
@@ -3697,14 +3697,14 @@ for (String[] section : sectionNames) {
             class="tool-btn"
             onclick="window.print()"
         >
-            âŽ™
+            ⎙
         </button>
 
         <button
             class="tool-btn"
             onclick="toggleFullPreview()"
         >
-            â›¶
+            ⛶
         </button>
 
     </div>
@@ -3770,13 +3770,13 @@ for (String[] section : sectionNames) {
             : email %>
     </span>
 
-    <span>â€¢</span>
+    <span>•</span>
 
     <span>
         Phone
     </span>
 
-    <span>â€¢</span>
+    <span>•</span>
 
     <span>
         Location
@@ -3977,7 +3977,7 @@ for (String[] section : sectionNames) {
         class="paper-summary"
         id="previewLanguages"
     >
-        English â€¢ Hindi â€¢ Marathi
+        English • Hindi • Marathi
     </div>
 
 </div>
@@ -4073,7 +4073,7 @@ for (String[] section : sectionNames) {
             class="tool-btn"
             onclick="zoomOutPreview()"
         >
-            âˆ’
+            −
         </button>
 
         <button
@@ -4136,11 +4136,11 @@ for (String[] section : sectionNames) {
             : email %>
     </span>
 
-    <span>â€¢</span>
+    <span>•</span>
 
     <span>Phone</span>
 
-    <span>â€¢</span>
+    <span>•</span>
 
     <span>Location</span>
 
@@ -5076,13 +5076,13 @@ function updatePersonal() {
             escapeHTML(email) +
         "</span>" +
 
-        "<span>â€¢</span>" +
+        "<span>•</span>" +
 
         "<span>" +
             escapeHTML(phone) +
         "</span>" +
 
-        "<span>â€¢</span>" +
+        "<span>•</span>" +
 
         "<span>" +
             escapeHTML(location) +
@@ -5194,7 +5194,7 @@ function updateExperience() {
                             start || ""
                         ) +
 
-                        " â€” " +
+                        " — " +
 
                         escapeHTML(
                             end || ""
@@ -5356,7 +5356,7 @@ function updateEducation() {
 
                                 (
                                     start || end
-                                        ? " â€” "
+                                        ? " — "
                                         : ""
                                 ) +
 
@@ -5611,7 +5611,7 @@ function updateSimpleFields() {
         [
             "languages",
             "previewLanguages",
-            "English â€¢ Hindi â€¢ Marathi"
+            "English • Hindi • Marathi"
         ],
 
         [
@@ -5696,7 +5696,7 @@ function addExperience() {
             '<button ' +
                 'class="remove-entry" ' +
                 'onclick="removeEntry(this)">' +
-                'Ã—' +
+                '×' +
             '</button>' +
 
         '</div>' +
@@ -5806,7 +5806,7 @@ function addEducation() {
             '<button ' +
                 'class="remove-entry" ' +
                 'onclick="removeEntry(this)">' +
-                'Ã—' +
+                '×' +
             '</button>' +
 
         '</div>' +
@@ -5905,7 +5905,7 @@ function addProject() {
             '<button ' +
                 'class="remove-entry" ' +
                 'onclick="removeEntry(this)">' +
-                'Ã—' +
+                '×' +
             '</button>' +
 
         '</div>' +
@@ -7454,6 +7454,3 @@ document.addEventListener(
 </body>
 
 </html>
-
-
-
